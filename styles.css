@@ -1,1 +1,25 @@
 /* your code */
+table{
+	border: 2px solid black;
+	border-collapse: collapse;
+	font-family:"Gill Sans", sans-serif;
+	width:100%;
+	border-radius: 10px; 
+	overflow:hidden;
+}
+th{
+	color:white;
+	background-color: #215a8eff;
+	text-align:left;
+	text-transform: uppercase;
+}
+td,th{
+	padding:10px;
+}
+td{
+	border-bottom: 1px solid #ddd;
+	color:black;
+}
+tr:nth-child(even){
+	background-color:#ddddddff;
+}
